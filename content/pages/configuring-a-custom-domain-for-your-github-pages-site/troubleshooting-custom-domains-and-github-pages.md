@@ -18,7 +18,7 @@ shortTitle: Troubleshoot a custom domain
 
 ## _CNAME_ errors
 
-{% ifversion pages-custom-workflow %}If you are publishing from a custom {% data variables.product.prodname_actions %} workflow, any _CNAME_ file is ignored and is not required.{% endif %}
+{% ifversion pages-custom-workflow %}If you are publishing from a custom {% data variables.product.prodname_actions %} workflow, any _CNAME_ file is ignored.{% endif %}
 
 If you are publishing from a branch, custom domains are stored in a _CNAME_ file in the root of your publishing source. You can add or update this file through your repository settings or manually. For more information, see "[Managing a custom domain for your {% data variables.product.prodname_pages %} site](/articles/managing-a-custom-domain-for-your-github-pages-site)."
 
